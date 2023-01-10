@@ -1,1 +1,35 @@
+.App {
+  background-color: #191b30;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
 
+img {
+  width: 400px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container h1 {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.counter-box {
+  border: 8px solid #fff;
+  margin: 16px 0;
+  padding: 16px;
+  min-width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 140px;
+  color: #fff;
+}

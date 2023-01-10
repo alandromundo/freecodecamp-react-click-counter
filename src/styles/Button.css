@@ -1,0 +1,22 @@
+.Button {
+  padding: 20px;
+  width: 200px;
+  font-size: 32px;
+  border-radius: 14px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: green;
+}
+
+.ClickButton {
+  background-color: #002aa3;
+}
+
+.ResetButton {
+  background-color: #4d0f8c;
+}

@@ -9,8 +9,12 @@ function App() {
   return (
     <div className="App">
       <section className="main-container">
-        <h1>freeCodeCamp (fueguito)</h1>
-        <div className="counter">{counter}</div>
+        <img
+          src={require("./imgs/fcc_primary_large.png")}
+          className={"freecodecamp-logo"}
+          alt="Logo de freecodecamp"
+        />
+        <div className="counter-box">{counter}</div>
         <Button setCounter={setCounter} value={"Click"} isReset={false} />
         <Button setCounter={setCounter} value={"Reset"} isReset={true} />
       </section>
